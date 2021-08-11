@@ -17,7 +17,7 @@ cp env.example .env  # add corresponding values to DEBUG and SECRET_KEY values
 When all the steps from previous entry were made, API will be available from the browser via this link - http://127.0.0.1:8000/api/restaurants/
 
 Endpoints and corresponding requests are listed below:
-* POST /api/restaurants/ - create a new restaurant entry, payload should be `{"name": "<name_of_therestaurant>"}
+* POST /api/restaurants/ - create a new restaurant entry, payload should be `{"name": "<name_of_therestaurant>"}`
 * GET /api/restaurants/  - get list of all restaurants saved in the database
 * GET /api/restaurants/<id>/  - get information about a specific restaurant
 * PUT /api/restaurants/<id>/  - change the infromation about restaurant, by recreating a new resource, payload is the same as with the POST request
